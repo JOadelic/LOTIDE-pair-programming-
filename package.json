@@ -1,0 +1,29 @@
+{
+  "name": "@mariahfernnn/lotide_pair",
+  "version": "1.0.0",
+  "description": "lotide",
+  "main": "assertArraysEqual2.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOadelic/LOTIDE-pair-programming-.git"
+  },
+  "author": "Maria Fernandez",
+  "contributors": ["Jordan Owens"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOadelic/LOTIDE-pair-programming-/issues"
+  },
+  "homepage": "https://github.com/JOadelic/LOTIDE-pair-programming-#readme"
+}
