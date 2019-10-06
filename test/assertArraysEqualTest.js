@@ -21,8 +21,9 @@ describe("#middle", () => {
 
 // testing map function
 describe("#map", () => {
-  it('returns ["g", "c", "t", "m", "t"] for ["ground", "control", "to", "major", "tom"]', () => {
-    assert.deepEqual(map(["ground", "control", "to", "major", "tom"]), ["g", "c", "t", "m", "t"]);
+  let words = ["ground", "control", "to", "major", "tom"];
+  it('returns ["g", "c", "t", "m", "t"] for (words, word => word[0])', () => {
+    assert.deepEqual(map(words, word => word[0]), ["g", "c", "t", "m", "t"]);
   });
 });
 
