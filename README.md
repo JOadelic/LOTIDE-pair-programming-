@@ -29,6 +29,11 @@ The following functions are currently implemented:
 * `head(array)`: returns first index of the array
 * `tail(array)`: removes the first index and returns the rest of the array
 * `middle(array)`: returns the middle value of an array
+* `map(array, callback)`: returns a new array "based on the results of a callback function"
+* `takeUntil(array, callback)`: returns a "slice of the array with elements taken from the beginning"
+* `findKeys(obj, callback)`: returns a truthy value or undefined
+* `findKeyByValue(obj, value)`: returns the first key which contains the given value; returns undefined if no key with that given value is found
+* `eqObjects(obj1, obj2)`: returns true or false
 * `eqArrays(arr1, arr2)`: returns true if they are equal
 * `assertArraysEqual(actual, expected)`: compares actual to expected, returns true/false
 * `assertEqual(actual, expected)`: compares actual to expected, returns true/false
