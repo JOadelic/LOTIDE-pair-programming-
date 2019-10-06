@@ -67,3 +67,21 @@ describe("#eqObjects", () => {
     assert.strictEqual(eqObjects(arrayObject2, arrayObject), false);
   });
 });
+
+// testing countOnly function
+describe("#countOnly", () => {
+  const firstNames = [
+    "Karl",
+    "Salima",
+    "Agouhanna",
+    "Fang",
+    "Kavith",
+    "Jason",
+    "Salima",
+    "Fang",
+    "Joe"
+  ];
+  it('returns { Fang: 2, Jason: 1 } for (allItems, itemsToCount)', () => {
+    assert.deepEqual(countOnly(firstNames, { "Jason": true, "Fang": true }), { Fang: 2, Jason: 1 });
+  });
+});
