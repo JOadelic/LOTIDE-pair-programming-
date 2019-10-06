@@ -20,7 +20,9 @@
     "url": "git+https://github.com/JOadelic/LOTIDE-pair-programming-.git"
   },
   "author": "Maria Fernandez",
-  "contributors": ["Jordan Owens"],
+  "contributors": [
+    "Jordan Owens"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JOadelic/LOTIDE-pair-programming-/issues"
